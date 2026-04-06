@@ -12,7 +12,7 @@ title: Home
       <h1>Ilias</h1>
       <p class="hero-role">Penetration Tester - United Kingdom</p>
       <p class="lead">
-        I work in offensive security, focused on infrastructure penetrationg testing and red team
+        I work in offensive security, focused on infrastructure penetration testing and red team
         operations. This is where I publish research notes and tooling.
       </p>
       <div class="hero-social">
