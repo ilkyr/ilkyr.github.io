@@ -229,9 +229,9 @@ h3 {
 }
 
 .avatar {
-  width: 48px;
-  height: 48px;
-  min-width: 48px;
+  width: 120px;
+  height: 120px;
+  min-width: 120px;
   border-radius: 50%;
   border: 2px solid var(--line);
   object-fit: cover;
