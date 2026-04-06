@@ -511,8 +511,20 @@ h3 {
   flex-wrap: wrap;
 }
 
+.post-body {
+  overflow-wrap: break-word;
+  word-break: break-word;
+  min-width: 0;
+}
+
 .post-body > * + * {
   margin-top: 20px;
+}
+
+.post-body table {
+  display: block;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
 }
 
 code,
