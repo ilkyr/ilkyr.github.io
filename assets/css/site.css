@@ -236,6 +236,7 @@ h3 {
   border: 2px solid var(--line);
   object-fit: cover;
   object-position: center 20%;
+  background: #0b0b0d;
 }
 
 .hero-copy {
