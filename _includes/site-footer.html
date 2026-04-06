@@ -1,0 +1,12 @@
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <span class="footer-name">{{ site.title }}</span>
+    <div class="footer-social">
+      {% if site.social.github %}<a href="{{ site.social.github }}">GitHub</a>{% endif %}
+      {% if site.social.linkedin %}<a href="{{ site.social.linkedin }}">LinkedIn</a>{% endif %}
+      {% if site.social.x %}<a href="{{ site.social.x }}">X</a>{% endif %}
+      <a href="{{ '/feed.xml' | relative_url }}">RSS</a>
+    </div>
+    <p class="footer-disclaimer">All content and tools are provided strictly for educational and authorized security testing purposes. The author assumes no responsibility for misuse.</p>
+  </div>
+</footer>
